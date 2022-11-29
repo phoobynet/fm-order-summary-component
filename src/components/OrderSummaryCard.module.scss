@@ -1,0 +1,21 @@
+.order-summary-card {
+  @apply bg-white rounded-xl overflow-hidden w-full;
+  width: 327px;
+  height: 567px;
+
+  &-main {
+    @apply flex flex-col space-y-2 justify-center;
+  }
+
+  &-heading {
+    font-size: 22px;
+    letter-spacing: 0;
+  }
+}
+
+@screen desktop {
+  .order-summary-card {
+    width: 450px;
+    height: 697px;
+  }
+}

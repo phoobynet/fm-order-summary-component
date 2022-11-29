@@ -1,0 +1,10 @@
+.order-summary {
+  @apply min-h-screen bg-no-repeat bg-pale-blue bg-contain flex justify-center items-center;
+  background-image: url("@/assets/images/pattern-background-mobile.svg");
+}
+
+@screen desktop {
+  .order-summary {
+    background-image: url("@/assets/images/pattern-background-desktop.svg");
+  }
+}
