@@ -1,0 +1,39 @@
+.order-summary-card {
+  @apply bg-white rounded-xl overflow-hidden w-full;
+  width: 327px;
+  height: 567px;
+
+  .heading {
+    @apply flex flex-col items-center;
+    font-size: 22px;
+    letter-spacing: 0;
+  }
+
+  .message {
+    @apply text-desaturated-blue text-center;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0;
+  }
+}
+
+@screen desktop {
+  .order-summary-card {
+    width: 450px;
+    height: 697px;
+
+    .heading {
+      font-size: 26px;
+      line-height: 26px;
+      font-weight: 500;
+      letter-spacing: 0;
+    }
+
+    .message {
+      @apply w-[20rem];
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+}
+
