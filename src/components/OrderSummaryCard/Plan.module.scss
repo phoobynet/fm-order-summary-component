@@ -29,11 +29,11 @@
     }
 
     &-period {
-      @apply text-[1rem] pl-1.5 py-1;
+      @apply text-[1rem] pl-1.5 pt-1;
       place-self: center start;
 
       &-price {
-        @apply font-medium text-desaturated-blue tracking-[0.019rem];
+        @apply font-medium text-desaturated-blue tracking-[0.019rem] pt-1;
       }
     }
 
