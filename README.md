@@ -19,7 +19,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 ### Links
 
 - Solution URL: https://github.com/phoobynet/fm-order-summary-component
-- Live Site URL: https://order-summary-component.iamglenn.com/
+- Live Site URL: https://fm-order-summary-component-phooby.vercel.app
 
 ## My process
 
