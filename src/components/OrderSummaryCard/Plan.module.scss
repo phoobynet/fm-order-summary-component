@@ -1,45 +1,45 @@
 .plan {
-  @apply bg-very-pale-blue w-full grid grid-cols-[1fr_2fr_1fr] py-4 rounded-xl;
+  @apply bg-very-pale-blue w-full grid grid-cols-[1fr_2fr_1fr] py-4 rounded-xl h-[5.063rem] px-1;
   &-icon {
-    @apply place-self-center;
+    @apply place-self-center ml-1;
   }
 
   &-period {
-    @apply flex flex-col justify-between text-[14px] place-self-start justify-center h-full py-1 pl-2;
+    @apply text-[0.875rem] h-full ml-3 mt-1;
     &-freq {
-      @apply text-[14px] font-extrabold;
+      @apply font-extrabold;
     }
 
     &-price {
-      @apply text-[13px] font-medium text-desaturated-blue;
+      @apply font-medium text-desaturated-blue tracking-[0.019rem];
     }
   }
 
   &-change {
-    @apply place-self-center text-bright-blue underline font-bold text-[14px];
+    @apply place-self-center text-bright-blue underline font-bold text-[0.813rem] ml-[-0.188rem] hover:no-underline hover:text-hover-blue cursor-pointer;
   }
 }
 
 @screen desktop {
   .plan {
-    @apply bg-very-pale-blue w-full grid grid-cols-[1fr_3fr_1fr] py-4 rounded-xl;
+    @apply grid-cols-[1fr_3fr_1fr] h-[6.125rem] w-[22.125rem];
+
     &-icon {
-      @apply place-self-center;
+      place-self: center end;
     }
 
     &-period {
-      @apply flex flex-col justify-between text-[1rem] place-self-start pl-2;
-      &-freq {
-        @apply text-[1rem] font-extrabold;
-      }
+      @apply text-[1rem] pl-1.5 py-1;
+      place-self: center start;
 
       &-price {
-        @apply text-[1rem] font-medium text-desaturated-blue;
+        @apply font-medium text-desaturated-blue tracking-[0.019rem];
       }
     }
 
     &-change {
-      @apply place-self-center text-bright-blue underline font-bold text-[14px];
+      @apply text-[0.875rem];
+      place-self: center self-start;
     }
   }
 }

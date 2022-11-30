@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  @apply bg-no-repeat bg-pale-blue bg-cover;
+  background-image: url("@/assets/images/pattern-background-mobile.svg");
+}
+
+@screen desktop {
+  body {
+    background-image: url("@/assets/images/pattern-background-desktop.svg");
+  }
+}

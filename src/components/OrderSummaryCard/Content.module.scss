@@ -1,9 +1,9 @@
 .content {
-  @apply flex flex-col space-y-5 items-center mx-[1.5rem] mt-10;
+  @apply flex flex-col items-center mt-[2rem] w-[17.5rem];
 }
 
 @screen desktop {
   .content {
-    @apply mx-10 mt-10 space-y-8;
+    @apply mx-10 mt-10 w-[22.1rem];
   }
 }

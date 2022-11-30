@@ -1,0 +1,9 @@
+.heading {
+  @apply flex flex-col items-center text-dark-blue font-black text-[1.375rem] tracking-[0.006rem];
+}
+
+@screen desktop {
+  .heading {
+    @apply text-[1.75rem];
+  }
+}

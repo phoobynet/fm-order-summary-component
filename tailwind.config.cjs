@@ -10,6 +10,7 @@ module.exports = {
       'very-pale-blue': 'hsl(225, 100%, 98%)',
       'desaturated-blue': 'hsl(224, 23%, 55%)',
       'dark-blue': 'hsl(223, 47%, 23%)',
+      'hover-blue': '#766CF1',
     },
     screens: {
       mobile: '375px',

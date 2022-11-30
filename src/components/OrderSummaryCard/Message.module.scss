@@ -1,0 +1,9 @@
+.message {
+  @apply text-desaturated-blue text-center font-medium w-[16.438rem] px-1 text-[0.938rem] leading-[1.563rem] tracking-normal;
+}
+
+@screen desktop {
+  .message {
+    @apply w-[20rem] text-[1rem] leading-[1.625rem];
+  }
+}

@@ -1,38 +1,41 @@
 .order-summary-card {
-  @apply bg-white rounded-xl overflow-hidden w-full;
-  width: 327px;
-  height: 567px;
+  @apply bg-white rounded-2xl overflow-hidden w-full flex flex-col items-center w-[20.438rem] h-[35.475rem];
 
-  .heading {
-    @apply flex flex-col items-center;
-    font-size: 22px;
-    letter-spacing: 0;
+  .heading-container {
+    @apply mb-[0.9rem];
   }
 
-  .message {
-    @apply text-desaturated-blue text-center;
-    font-size: 16px;
-    line-height: 25px;
-    letter-spacing: 0;
+  .message-container {
+    @apply mb-[1.4rem];
+  }
+
+  .plan-container {
+    @apply mb-[1.55rem] w-full flex justify-center;
+  }
+
+  .proceed-btn-container {
+    @apply mb-[1.5rem] w-full;
   }
 }
 
 @screen desktop {
   .order-summary-card {
-    width: 450px;
-    height: 697px;
+    @apply w-[28.125rem] h-[43.563rem];
 
-    .heading {
-      font-size: 26px;
-      line-height: 26px;
-      font-weight: 500;
-      letter-spacing: 0;
+    .heading-container {
+      @apply mt-[0.2rem] mb-[0.9rem];
     }
 
-    .message {
-      @apply w-[20rem];
-      font-size: 16px;
-      line-height: 26px;
+    .message-container {
+      @apply mb-[1.4rem];
+    }
+
+    .plan-container {
+      @apply mb-[1.8rem];
+    }
+
+    .proceed-btn-container {
+      @apply mb-[1.9rem];
     }
   }
 }
